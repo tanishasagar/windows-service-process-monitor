@@ -1,0 +1,134 @@
+
+=== Detection Run @ 2026-01-31 14:05:00 ===
+[PROCESS] python.exe (PID 5760) running from C:\Users\HP\AppData\Local\Programs\Python\Python313\python.exe
+[SERVICE] LSM has no executable path (State: Running)
+[SERVICE] NetSetupSvc has no executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:20:51 ===
+[INFO] Scan started at 2026-01-31 14:20:51
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 193
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[HIGH] Process Code.exe (PID 3340) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 7708) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9044) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9356) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9752) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9808) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 10828) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[LOW] Process python.exe (PID 11008) running from user directory (whitelisted)
+[HIGH] Process Code.exe (PID 11140) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12032) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12276) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:24:35 ===
+[INFO] Scan started at 2026-01-31 14:24:35
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 211
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[HIGH] Process Code.exe (PID 3340) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 7708) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9044) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9356) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9752) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9808) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 10828) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 11140) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12032) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12276) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[LOW] Process python.exe (PID 12916) running from user directory (whitelisted)
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:29:48 ===
+[INFO] Scan started at 2026-01-31 14:29:48
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 205
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[HIGH] Process Code.exe (PID 3340) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 7708) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9044) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9356) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[LOW] Process python.exe (PID 9384) running from user directory (whitelisted)
+[HIGH] Process Code.exe (PID 9752) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9808) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 10828) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 11140) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12032) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12276) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:33:35 ===
+[INFO] Scan started at 2026-01-31 14:33:35
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 188
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[LOW] Process python.exe (PID 13180) running from user directory (whitelisted)
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:33:52 ===
+[INFO] Scan started at 2026-01-31 14:33:52
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 202
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[HIGH] Process Code.exe (PID 3536) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 6288) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 7608) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 8212) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 8748) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9184) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 10804) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 11648) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[LOW] Process python.exe (PID 12460) running from user directory (whitelisted)
+[HIGH] Process Code.exe (PID 12848) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:37:16 ===
+[INFO] Scan started at 2026-01-31 14:37:16
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 196
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[HIGH] Process Code.exe (PID 3536) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 6288) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 7608) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 8212) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 8748) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9184) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 10804) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 11648) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12848) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[LOW] Process python.exe (PID 13024) running from user directory (whitelisted)
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+=== Detection Run @ 2026-01-31 14:41:43 ===
+[INFO] Scan started at 2026-01-31 14:41:43
+[INFO] Monitoring mode: Periodic execution (simulated continuous monitoring)
+[INFO] Hostname: MacBook
+[INFO] Total processes scanned: 201
+[INFO] Total services scanned: 283
+[INFO] Scan completed successfully
+[HIGH] Process Code.exe (PID 616) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 3536) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 6288) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 7608) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 8212) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[LOW] Process python.exe (PID 8352) running from user directory (whitelisted)
+[HIGH] Process Code.exe (PID 8748) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 9184) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 10804) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 11648) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[HIGH] Process Code.exe (PID 12848) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+[MEDIUM] Service LSM has missing executable path (State: Running)
+[MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)

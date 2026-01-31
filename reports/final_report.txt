@@ -1,0 +1,47 @@
+Windows Service & Process Monitoring Agent
+==========================================
+
+Report Overview
+---------------
+This report summarizes the findings from a Windows system monitoring scan. The monitoring agent analyzes running processes, parent–child relationships, startup services, and execution paths to identify suspicious or unauthorized activity.
+
+Scan Time : 2026-01-31 14:41:43
+Host Name : MacBook
+
+1. Scan Summary
+---------------
+- Total Processes Scanned : 201
+- Total Services Scanned  : 283
+
+2. Process Monitoring Findings
+-------------------------------
+- [HIGH] Process Code.exe (PID 616) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 3536) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 6288) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 7608) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 8212) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [LOW] Process python.exe (PID 8352) running from user directory (whitelisted)
+- [HIGH] Process Code.exe (PID 8748) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 9184) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 10804) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 11648) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+- [HIGH] Process Code.exe (PID 12848) running from suspicious path: C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe
+
+3. Service Audit Findings
+--------------------------
+- [MEDIUM] Service LSM has missing executable path (State: Running)
+- [MEDIUM] Service NetSetupSvc has missing executable path (State: Stopped)
+
+4. Severity Classification
+---------------------------
+- LOW    : Known or whitelisted applications running from user directories.
+- MEDIUM : Services or configurations requiring manual review.
+- HIGH   : Processes or services running from locations commonly abused by malware.
+
+5. Analyst Notes
+-----------------
+Some alerts may correspond to legitimate user-installed applications (e.g., development tools or scripting environments). These are flagged based on execution location and should be manually reviewed by an analyst before taking remediation actions.
+
+6. Conclusion
+-------------
+The monitoring agent detected activity that matches known suspicious patterns. While not all findings indicate confirmed malware, they highlight areas that warrant further investigation.

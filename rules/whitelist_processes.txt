@@ -1,0 +1,9 @@
+python.exe
+chrome.exe
+msedge.exe
+explorer.exe
+svchost.exe
+services.exe
+powershell.exe
+cmd.exe
+Code.exe
